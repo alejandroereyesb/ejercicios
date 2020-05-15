@@ -1,0 +1,84 @@
+/*
+this is how to comment 
+this document was created to work with nav bar
+*/
+
+*{
+	margin: 0px;
+ 	padding: 0px;
+
+}
+body {
+	background-image: url("image/falls.jpg");/* hey goku*/
+	background-size: cover; 
+
+}
+
+nav {
+	width: 100%
+	height: 60px;
+	background-color:#fff;
+}
+nav p {
+	font-family: arial;
+	color: #ffffff
+	font-size:24px;
+	line-height: 55px
+	float: left;
+	padding: 0px 20px
+}
+
+nav ul {
+	float:left;
+}
+
+nav ul li {
+	float:left;
+	list-style: none;
+	position:relative;
+
+}
+
+nav ul li a {
+	display: block;
+	font-family: arial;
+	color: red
+	font-size:14px;
+	padding: 22px 14px
+
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color:#ff3399 
+	padding:10px;
+	border-radius:0px 0px 4px 4px;
+}
+nav ul li:hover ul {
+	display: block;
+	}
+
+nav ul li ul li {
+	width: 180px
+	border-radius:4px;
+}
+nav ul li ul a {
+	padding: 8px 14px
+}
+nav ul li ul a:hover {
+	background-color: #000000;
+}	
+
+a {
+  color: #white;
+  text-decoration: none; /* this what i use to remove the underline from a text*/
+}
+a:hover {
+   color: #00F
+}
+
+.navbar {
+    background-color: white;
+    opacity: 0.5;
+}
